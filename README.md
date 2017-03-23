@@ -1,3 +1,25 @@
+VUE 项目demo搭建
+  ## 淘宝npm镜像安装相关依赖
+  npm install -g cnpm
+  ## 安装全局vue-cli脚手架,用于帮助搭建所需的模板框架
+  cnpm install -g vue-cli
+  ## 回车，若出现vue信息说明表示成功
+  vue
+  ## 创建项目
+  vue init webpack vuedemo
+  ## 进入到具体项目文件夹
+  cd vuedemo
+  cnpm install
+  ## 测试环境是否搭建成功
+  cnpm run dev
+
+  ## 在浏览里输入
+  localhost:8080
+
+  ##
+  cnpm install -g webpack
+  cnpm install -g css-loader
+  cnpm install -g vue-html-loader
 # vuedemo
 
 > A Vue.js project
